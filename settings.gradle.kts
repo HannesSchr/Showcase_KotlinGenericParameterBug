@@ -1,3 +1,3 @@
 
-rootProject.name = "InferenceBug"
+rootProject.name = "Showcase_GenericParameterBug"
 

@@ -1,4 +1,4 @@
-# Showcase for a potential inference bug when passing generic parameters
+# Showcase for a potential bug when passing generic parameters
 
 A small setup that showcases a somewhat unexpected behavior when passing generic parameters repeatedly.
 

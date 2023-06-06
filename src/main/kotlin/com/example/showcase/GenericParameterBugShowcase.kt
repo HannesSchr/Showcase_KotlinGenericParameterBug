@@ -2,7 +2,7 @@
 // Explicit generic parameters to make it more apparent that the same type is passed along the chain.
 @file:Suppress("NOTHING_TO_INLINE", "RemoveExplicitTypeArguments")
 
-package com.example.inference
+package com.example.showcase
 
 /**
  * Simple base class (can also be open or abstract, no change in the behavior)

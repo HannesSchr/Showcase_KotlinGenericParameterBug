@@ -1,4 +1,4 @@
-package com.example.inference
+package com.example.showcase
 
 import org.junit.jupiter.api.Nested
 import org.junit.jupiter.api.Test
@@ -8,7 +8,7 @@ import strikt.assertions.isEqualTo
 import strikt.assertions.isFailure
 import strikt.assertions.isSuccess
 
-class InferenceShowcaseTest {
+class GenericParameterBugShowcaseTest {
 
     @Nested
     inner class ReifiedToReified {
