@@ -1,3 +1,9 @@
+# Update
+
+This is not a bug but actual the way non-reified parameters work: they only ensure their bounds on compile time, but on runtime the casts are unchecked and thus can be whatever they want.
+
+See here: https://youtrack.jetbrains.com/issue/KT-59130/Passing-generic-parameter-to-non-reified-generic-parameter-uses-upper-bound-instead-of-actual-passed-type
+
 # Showcase for a potential bug when passing generic parameters
 
 A small setup that showcases a somewhat unexpected behavior when passing generic parameters repeatedly.
